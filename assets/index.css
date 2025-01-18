@@ -27,7 +27,7 @@ header h1 {
     font-size: 3em;
 }
 .logo_wrapper {
-    height: 100px;
+    height: 190px;
     width: auto;
 }
 .logo_wrapper img {
@@ -68,6 +68,9 @@ nav ul li a {
     margin: 10px;
     margin-top: 20px;
     font-size: 1em
+}
+.sectionbase h2 {
+    font-size:;
 }
 .sectionbase p {
     color: rgba(0,155,0,1);

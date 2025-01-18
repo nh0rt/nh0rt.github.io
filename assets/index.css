@@ -1,6 +1,6 @@
 
 html {
-    background-image: url('metalbg.jpg');
+    background-image: url(metalbg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100%;

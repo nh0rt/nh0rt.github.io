@@ -1,12 +1,12 @@
 
 html {
-    background-image: url(metalbg.jpg);
+    background-image: url(../assets/metalbg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100%;
 }
 .headerBg_wrapper {
-    background: url(matrixbg.jpg);
+    background: url(../assets/matrixbg.jpg);
     background-size: contain;
     width: 100%;
     height: auto;
@@ -15,20 +15,27 @@ html {
     background-color: rgba(0,0,0,1)
 }
 header {
-    text-align: center;
     display: flex;
     color: lightgray;
-    font-family: 'Quantico'
+    font-family: 'Quantico';
+    text-align: center;
+    justify-content: center;
 }
 header h1 {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 3em;
 }
+.logo_wrapper {
+    height: 190px;
+    width: auto;
+}
 .logo_wrapper img {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    height: 100%;
+    width: auto;
 }
 nav ul {
     text-decoration: none;
@@ -48,6 +55,7 @@ nav ul li a {
     font-size: 2em;
     text-align: center;
     font-family: 'Geo';
+    margin: auto;
 }
 .nav_wrapper {
     width: 100%;
@@ -56,8 +64,15 @@ nav ul li a {
 }
 .sectionbase {
     color: lightgray;
-    font-family: 'Geo';
+    font-family: 'Quantico';
     margin: 10px;
     margin-top: 20px;
-    font-size: 2em
+    font-size: 1em
+}
+.sectionbase h2 {
+    font-size:;
+}
+.sectionbase p {
+    color: rgba(0,155,0,1);
+    font-family: 'Geo';
 }

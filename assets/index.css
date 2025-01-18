@@ -2,13 +2,13 @@
     box-sizing: border-box;
 }
 html {
-    background-image: url(../assets/metalbg.jpg);
+    background-image: url('assets/metalbg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100%;
 }
 .headerBg_wrapper {
-    background: url(../assets/matrixbg.jpg);
+    background: url('assets/matrixbg.jpg');
     background-size: cover;
     width: 100%;
     height: auto;
